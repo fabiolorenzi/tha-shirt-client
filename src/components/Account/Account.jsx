@@ -32,7 +32,7 @@ function Account() {
     const [inChange, setInChange] = useState(false);
 
     useEffect(() => {
-        axios.get("http://localhost:8082/api/users/" + id)
+        axios.get("https://tha-shirt-server.herokuapp.com/api/users/" + id)
             .then(res => setUser({
                 name: res.data.name,
                 surname: res.data.surname,
@@ -97,7 +97,7 @@ function Account() {
             password: user.password,
             pass: false
         };
-        axios.put("http://localhost:8082/api/users/" + id, data)
+        axios.put("https://tha-shirt-server.herokuapp.com/api/users/" + id, data)
             .then(res => {
                 alert("Data updated successfully!");
                 localStorage.setItem("logged", true);
@@ -109,7 +109,7 @@ function Account() {
     };
 
     function cancelChange() {
-        axios.get("http://localhost:8082/api/users/" + id)
+        axios.get("https://tha-shirt-server.herokuapp.com/api/users/" + id)
             .then(res => setUser({
                 name: res.data.name,
                 surname: res.data.surname,
@@ -142,7 +142,7 @@ function Account() {
 
     const deleteAccount = (e) => {
         e.preventDefault();
-        axios.delete("http://localhost:8082/api/users/" + id)
+        axios.delete("https://tha-shirt-server.herokuapp.com/api/users/" + id)
             .then(res => {
                 alert("Account removed successfully!");
                 localStorage.removeItem("logged");

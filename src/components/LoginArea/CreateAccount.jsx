@@ -46,7 +46,7 @@ function CreateAccount() {
             pass: false
         };
 
-        axios.post("http://localhost:8082/api/users/", newUser)
+        axios.post("https://tha-shirt-server.herokuapp.com/api/users/", newUser)
             .then(res => {
                 alert(`New user created successfully! Now you can login with the credentials you gave.`);
                 setUser({

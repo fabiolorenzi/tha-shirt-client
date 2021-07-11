@@ -31,7 +31,7 @@ function UnderCategoriesList(props) {
     };
 
     useEffect(() => {      
-        axios.get("http://localhost:8082/api/products/")
+        axios.get("https://tha-shirt-server.herokuapp.com/api/products/")
             .then((res) => {
                 for (let i = 0; i < res.data.length; i++) {
                     if (res.data[i].type.toLowerCase() === props.match.params.type

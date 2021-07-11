@@ -47,7 +47,7 @@ function CreateProduct() {
             image: prod.image
         });
 
-        axios.post("http://localhost:8082/api/products/", newProd)
+        axios.post("https://tha-shirt-server.herokuapp.com/api/products/", newProd)
             .then(res => {
                 alert("The new product has been created successfully!");
                 setProd({

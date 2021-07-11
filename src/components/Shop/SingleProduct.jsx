@@ -45,7 +45,7 @@ function SingleProduct(props) {
     //--------------------FUNCTIONS--------------------
 
     useEffect(() => {
-        axios.get("http://localhost:8082/api/products/" + props.match.params.id)
+        axios.get("https://tha-shirt-server.herokuapp.com/api/products/" + props.match.params.id)
             .then(res => setProduct({
                 name: res.data.name,
                 type: res.data.type,
@@ -120,7 +120,7 @@ function SingleProduct(props) {
 
     function removeItem(e) {
         e.preventDefault();
-        axios.delete("http://localhost:8082/api/products/" + props.match.params.id)
+        axios.delete("https://tha-shirt-server.herokuapp.com/api/products/" + props.match.params.id)
             .then(res => {
                 alert("Item removed successfully.");
                 history.push(`/shop/${props.match.params.type}/${props.match.params.category}/${props.match.params.underCategory}`);
@@ -148,7 +148,7 @@ function SingleProduct(props) {
             update_date: new Date(),
             image: product.image,
         };
-        axios.put("http://localhost:8082/api/products/" + props.match.params.id, data)
+        axios.put("https://tha-shirt-server.herokuapp.com/api/products/" + props.match.params.id, data)
             .then(res => {
                 alert("Data updated successfully!");
                 window.location.reload();

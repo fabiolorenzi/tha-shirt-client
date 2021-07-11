@@ -21,7 +21,7 @@ function Login() {
     };
 
     useEffect(() => {
-        axios.get("http://localhost:8082/api/users/")
+        axios.get("https://tha-shirt-server.herokuapp.com/api/users/")
             .then(res => setUsers(res.data))
             .catch(err => alert("Not possible to login now. Please retry later."));
     }, []);
