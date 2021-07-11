@@ -1,0 +1,120 @@
+@import "../../shared/stylesheets/var.scss";
+@import "../../shared/stylesheets/openHiddenMenu.scss";
+
+.accountContainer {
+    display: block;
+    width: 100%;
+    padding-top: 100px;
+    background-color: $color2;
+    z-index: 1;
+    padding-bottom: 100px;
+    @include closedHiddenMenuEffect;
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    div {
+        display: block;
+        width: 90%;
+        margin: auto;
+        img {
+            display: block;
+            border: 5px solid $color1;
+            border-radius: 50%;
+            width: 250px;
+            margin: 0 auto 50px;
+        }
+    }
+    form {
+        display: block;
+        width: 260px;
+        margin: auto;
+        div {
+            margin-bottom: 15px;
+            h3 {
+                margin-bottom: 10px;
+            }
+        }
+        button {
+            display: block;
+            margin-left: 10px;
+            margin-bottom: 5px;
+            transition-duration: 0.3s;
+        }
+        button:hover {
+            transition-duration: 0.3s !important;
+            color: $color2 !important;
+            background-color: $color1 !important;
+        }
+        
+    }
+}
+
+.passwordShower {
+    margin-top: 3px;
+    margin-left: 0 !important;
+    border: 1px solid $color1;
+    border-radius: 3px;
+    background-color: $color3;
+    color: $color1;
+    font-weight: 600;
+    padding: 3px 15px;
+    transition-duration: 0.3s;
+}
+
+.passwordShower:hover {
+    transition-duration: 0.3s;
+    background-color: $color1;
+    color: $color2;
+}
+
+#psswShAct3 {
+    background-color: $color1;
+    color: $color2;
+}
+
+#changeDataButton {
+    font-weight: 600;
+    padding: 3px 23.5px;
+    background-color: $color3;
+    color: $color1;
+    border: 1px solid $color1;
+    border-radius: 3px;
+}
+
+#saveButton {
+    font-weight: 600;
+    padding: 3px 22px;
+    background-color: #08e900;
+    color: $color1;
+    border: 1px solid $color1;
+    border-radius: 3px;
+}
+
+#cancelButton {
+    font-weight: 600;
+    padding: 3px 15px;
+    background-color: #d9e900;
+    color: $color1;
+    border: 1px solid $color1;
+    border-radius: 3px;
+}
+
+#logoutButton {
+    font-weight: 600;
+    padding: 3px 41.5px;
+    background-color: $color5;
+    color: $color2;
+    border: 1px solid $color1;
+    border-radius: 3px;
+}
+
+#deleteButton {
+    font-weight: 600;
+    padding: 3px 15px;
+    background-color: $color4;
+    color: $color2;
+    border: 1px solid $color1;
+    border-radius: 3px;
+}

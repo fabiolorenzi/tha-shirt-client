@@ -1,0 +1,26 @@
+@import "../../shared/stylesheets/var.scss";
+
+.searchListContainer {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    h1 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    div {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        a {
+            text-decoration: none;
+            color: $color1;
+        }
+        div {
+            display: block;
+            width: fit-content;
+        }
+    }
+}

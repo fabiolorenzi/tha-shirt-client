@@ -1,0 +1,86 @@
+.createProdContainer {
+  display: block;
+  width: 340px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 10px;
+  margin: auto !important;
+}
+
+.createProdContainer h1 {
+  display: block;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.createProdContainer form div {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.createProdContainer form div input,
+.createProdContainer form div textarea {
+  float: right;
+  margin-top: -3px;
+}
+
+.createProdContainer form div textarea {
+  vertical-align: top;
+  width: 208.5px !important;
+  height: 150px;
+}
+
+.createProdContainer button {
+  margin-left: 235px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  background-color: #ff9900;
+  color: #000000;
+  font-weight: 600;
+  padding: 5px 20px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.createProdContainer button:hover {
+  color: #ffffff;
+  background-color: #000000;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.descriptionDiv {
+  height: 150px;
+}
+
+#file {
+  display: inline-block;
+  position: relative;
+  left: 50px;
+  top: -18px;
+}
+
+@media only screen and (max-width: 500px) {
+  .createProdContainer {
+    width: 300px;
+  }
+  .createProdContainer form div label {
+    font-size: 12px;
+  }
+  .createProdContainer form div input,
+  .createProdContainer form div textarea {
+    float: right;
+    margin-top: -3px;
+  }
+  .createProdContainer form div textarea {
+    vertical-align: top;
+    width: 208.5px !important;
+    height: 150px;
+  }
+  .createProdContainer button {
+    margin-left: 200px;
+  }
+}
+/*# sourceMappingURL=CreateProduct.css.map */

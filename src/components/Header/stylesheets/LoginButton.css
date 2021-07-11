@@ -1,0 +1,70 @@
+.loginButtonContainer {
+  display: block;
+  width: 25%;
+  padding: 10px;
+}
+
+.loginButtonContainer a {
+  text-decoration: none;
+}
+
+.login_button {
+  display: block;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 3px;
+  width: 150px;
+}
+
+.login_button h3 {
+  color: #000000;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-top: 4px;
+  text-decoration: none;
+}
+
+.login_button img {
+  width: 25px;
+}
+
+@media only screen and (max-width: 860px) {
+  .login_button {
+    width: 100px;
+  }
+  .login_button h3 {
+    font-size: 12px;
+  }
+  .login_button img {
+    width: 20px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .login_button {
+    width: 80px;
+  }
+  .login_button h3 {
+    font-size: 8px;
+  }
+  .login_button img {
+    width: 18px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .login_button {
+    width: 50px;
+  }
+  .login_button h3 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .login_button {
+    width: 40px;
+    padding: 5px;
+  }
+}
+/*# sourceMappingURL=LoginButton.css.map */

@@ -1,0 +1,65 @@
+@import "../../shared/stylesheets/var.scss";
+@import "../../shared/stylesheets/openHiddenMenu.scss";
+
+.plContainer {
+    display: block;
+    width: 100%;
+    padding-top: 100px;
+    background-color: $color2;
+    z-index: 1;
+    padding-bottom: 100px;
+    @include closedHiddenMenuEffect;
+    a {
+        text-decoration: none;
+        button {
+            display: block;
+            background-color: $color1;
+            color: $color2;
+            border-radius: 3px;
+        }
+    }
+    h1 {
+        font-size: 30px;
+        font-style: italic;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+}
+
+#openPL {
+    @include openHiddenMenuEffect;
+}
+
+.plBody {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+    a {
+        text-decoration: none;
+        color: $color1;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .plBody {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .plBody {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .plContainer {
+        h1 {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+    }
+}

@@ -1,0 +1,150 @@
+.contactsContainer {
+  display: block;
+  width: 100%;
+  padding-top: 100px;
+  background-color: #ffffff;
+  z-index: 1;
+  padding-bottom: 100px;
+  -webkit-filter: birghtness(100%);
+          filter: birghtness(100%);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.contactsContainer h3 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#openContacts {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.contactsBody {
+  display: block;
+  width: 100%;
+}
+
+.contactsBody h1 {
+  font-size: 40px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.contactsBody div {
+  vertical-align: top;
+}
+
+.contactsBody .contactsLeft {
+  display: inline-block;
+  width: 40%;
+}
+
+.contactsBody .contactsLeft img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.contactsBody .contactsRight {
+  display: inline-block;
+  margin-top: 30px;
+  width: 60%;
+}
+
+.contactsBody .contactsRight h3 {
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.contactsBody .contactsRight div {
+  display: block;
+  width: 50%;
+  margin: 30px auto 0;
+}
+
+.contactsBody .contactsRight div div {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+}
+
+.contactsBody .contactsRight div div a {
+  font-size: 60px;
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+#facebook {
+  color: #4267B2;
+}
+
+#instagram {
+  color: #E1306C;
+}
+
+#email {
+  color: #ff4800;
+  font-size: 74px;
+  margin-top: -9px;
+}
+
+#linkedin {
+  color: #2867B2;
+  font-size: 50px;
+  margin-top: 2px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .contactsBody .contactsRight {
+    margin-top: 0;
+  }
+  .contactsBody .contactsRight div {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .contactsBody h1 {
+    font-size: 30px;
+  }
+  .contactsBody .contactsLeft {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .contactsBody .contactsLeft img {
+    width: 60%;
+  }
+  .contactsBody .contactsRight {
+    display: block;
+    width: 90%;
+    margin: 50px auto 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .contactsBody .contactsRight {
+    width: 95%;
+  }
+  .contactsBody .contactsRight div div a {
+    font-size: 50px;
+  }
+  #linkedin {
+    font-size: 40px;
+    margin-top: 2px;
+  }
+  #email {
+    font-size: 64px;
+    margin-top: -8px;
+  }
+}
+/*# sourceMappingURL=Contacts.css.map */

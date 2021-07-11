@@ -1,0 +1,70 @@
+.SBContainer {
+  display: block;
+  width: 100%;
+  background-color: #ffffff;
+  margin-top: 80px;
+}
+
+.SBContainer div {
+  display: block;
+  width: 570px;
+  margin: auto;
+}
+
+.SBContainer div input {
+  width: 400px;
+  height: 30px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+}
+
+.SBContainer div button {
+  width: 80px;
+  height: 35px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+}
+
+#sbSearch {
+  background-color: #ff9900;
+  color: #000000;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+#sbCancel {
+  background-color: #ff0000;
+  color: #ffffff;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+#sbSearch:hover,
+#sbCancel:hover {
+  background-color: #000000;
+  color: #ffffff;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+@media only screen and (max-width: 650px) {
+  .SBContainer div {
+    width: 370px;
+  }
+  .SBContainer div input {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .SBContainer div {
+    width: 260px;
+  }
+  .SBContainer div input {
+    width: 130px;
+  }
+  .SBContainer div button {
+    width: 60px;
+  }
+}
+/*# sourceMappingURL=SearchBar.css.map */

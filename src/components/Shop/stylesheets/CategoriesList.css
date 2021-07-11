@@ -1,0 +1,63 @@
+.clContainer {
+  display: block;
+  width: 100%;
+  padding-top: 100px;
+  background-color: #ffffff;
+  z-index: 1;
+  padding-bottom: 100px;
+  -webkit-filter: birghtness(100%);
+          filter: birghtness(100%);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.clContainer a {
+  text-decoration: none;
+}
+
+.clContainer a button {
+  display: block;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 3px;
+}
+
+.clContainer h1 {
+  font-size: 30px;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+#openCL {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.clBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.clBody a {
+  text-decoration: none;
+  color: #000000;
+}
+
+@media only screen and (max-width: 400px) {
+  .clContainer h1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=CategoriesList.css.map */

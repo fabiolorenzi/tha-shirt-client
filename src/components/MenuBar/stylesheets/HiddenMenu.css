@@ -1,0 +1,40 @@
+.hiddenMenuContainer {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .hiddenMenuContainer {
+    display: block;
+    position: absolute;
+    top: 55px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 3px;
+  }
+  .hiddenMenuContainer a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #ff9900;
+  }
+  .hiddenMenuContainer .activeHiddenMenu {
+    background-color: #000000;
+  }
+  #openHiddenMenu {
+    left: 30px;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+  }
+  #closedHiddenMenu {
+    left: -200px;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+  }
+  #reservedHiddenMenu {
+    display: none;
+  }
+}
+/*# sourceMappingURL=HiddenMenu.css.map */

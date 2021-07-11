@@ -1,0 +1,48 @@
+@import "../../shared/stylesheets/var.scss";
+@import "../../shared/stylesheets/openHiddenMenu.scss";
+
+.footerContainer {
+    display: block;
+    @include closedHiddenMenuEffect;
+    width: 100%;
+    background-color: $color5;
+    color: $color2;
+    div {
+        padding: 40px;
+        width: fit-content;
+        a {
+            color: $color2;
+            text-decoration: none;
+            transition-duration: 0.3s;
+            p {
+                font-size: 15px;
+                font-style: italic;
+            }
+            :hover {
+                color: $color4;
+                transition-duration: 0.3s;
+            }
+        }
+        #footerRights {
+            font-size: 14px;
+        }
+    }
+}
+
+#openFooter {
+    @include openHiddenMenuEffect;
+}
+
+@media only screen and (max-width: 500px) {
+    .footerContainer {
+        div {
+            padding: 28px;
+            p {
+                font-size: 13px;
+            }
+            #footerRights {
+                font-size: 12px;
+            }
+        }
+    }
+}

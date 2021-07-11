@@ -1,0 +1,37 @@
+@import "../../shared/stylesheets/var.scss";
+@import "../../shared/stylesheets/openHiddenMenu.scss";
+
+.slContainer {
+    display: block;
+    width: 100%;
+    background-color: $color2;
+    margin-top: 50px;
+    h1 {
+        font-size: 30px;
+        font-style: italic;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+.slBody {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+    a {
+        text-decoration: none;
+        color: $color1;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .slContainer {
+        h1 {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.slContainer {
+  display: block;
+  width: 100%;
+  background-color: #ffffff;
+  margin-top: 50px;
+}
+
+.slContainer h1 {
+  font-size: 30px;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.slBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.slBody a {
+  text-decoration: none;
+  color: #000000;
+}
+
+@media only screen and (max-width: 400px) {
+  .slContainer h1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=ShopList.css.map */

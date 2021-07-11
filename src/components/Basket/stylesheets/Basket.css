@@ -1,0 +1,132 @@
+.basketContainer {
+  display: block;
+  width: 100%;
+  padding-top: 100px;
+  background-color: #ffffff;
+  z-index: 1;
+  padding-bottom: 100px;
+  -webkit-filter: birghtness(100%);
+          filter: birghtness(100%);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.basketContainer h1 {
+  font-size: 30px;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.basketList {
+  display: block;
+  width: 98%;
+  margin: auto;
+}
+
+.basketLine {
+  display: block;
+  width: 100%;
+  border-bottom: 1px #000000 solid;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.basketLine div {
+  display: inline-block;
+  width: 25%;
+  vertical-align: top;
+}
+
+.basketLine div img {
+  display: block;
+  width: 100px;
+  margin: auto;
+}
+
+.basketLine div h3 {
+  display: block;
+  margin-top: 60px;
+}
+
+.basketBtn {
+  display: inline-block;
+  width: 9%;
+}
+
+.basketBtn button {
+  display: block;
+  color: #ffffff;
+  background-color: #ff0000;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  margin-top: 60px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.basketBtn button:hover {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+#openBasket {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.lastPartBasket {
+  display: block;
+  width: 95%;
+  text-align: right !important;
+}
+
+.lastPartBasket h1 {
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: right !important;
+}
+
+.lastPartBasket button {
+  padding: 5px 40px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  background-color: #ff9900;
+  color: #000000;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.lastPartBasket button:hover {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+@media only screen and (max-width: 870px) {
+  .basketLine div h3 {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .basketLine div img {
+    width: 50px;
+  }
+  .basketLine div h3 {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .basketLine div button {
+    margin-top: 20px;
+  }
+}
+/*# sourceMappingURL=Basket.css.map */

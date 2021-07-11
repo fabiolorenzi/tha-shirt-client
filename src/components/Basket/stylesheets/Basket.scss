@@ -1,0 +1,123 @@
+@import "../../shared/stylesheets/var.scss";
+@import "../../shared/stylesheets/openHiddenMenu.scss";
+
+.basketContainer {
+    display: block;
+    width: 100%;
+    padding-top: 100px;
+    background-color: $color2;
+    z-index: 1;
+    padding-bottom: 100px;
+    @include closedHiddenMenuEffect;
+    h1 {
+        font-size: 30px;
+        font-style: italic;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+}
+
+.basketList {
+    display: block;
+    width: 98%;
+    margin: auto;
+}
+
+.basketLine {
+    display: block;
+    width: 100%;
+    border-bottom: 1px $color1 solid;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    div {
+        display: inline-block;
+        width: 25%;
+        vertical-align: top;
+        img {
+            display: block;
+            width: 100px;
+            margin: auto;
+        }
+        h3 {
+            display: block;
+            margin-top: 60px;
+        }
+    }
+}
+
+.basketBtn {
+    display: inline-block;
+    width: 9%;
+    button {
+        display: block;
+        color: $color2;
+        background-color: $color4;
+        border: 1px solid $color1;
+        border-radius: 3px;
+        margin-top: 60px;
+        transition-duration: 0.3s;
+    }
+    button:hover {
+        transition-duration: 0.3s;
+        color: $color2;
+        background-color: $color1;
+    }
+}
+
+#openBasket {
+    @include openHiddenMenuEffect;
+}
+
+.lastPartBasket {
+    display: block;
+    width: 95%;
+    text-align: right !important;
+    h1 {
+        font-size: 22px;
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: right !important;
+    }
+    button {
+        padding: 5px 40px;
+        border: 1px solid $color1;
+        border-radius: 3px;
+        background-color: $color3;
+        color: $color1;
+        transition-duration: 0.3s;
+    }
+    button:hover {
+        transition-duration: 0.3s;
+        color: $color2;
+        background-color: $color1;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .basketLine {
+        div {
+            h3 {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .basketLine {
+        div {
+            img {
+                width: 50px;
+            }
+            h3 {
+                font-size: 12px;
+                margin-top: 20px;
+            }
+            button {
+                margin-top: 20px;
+            }
+        }
+    }
+}

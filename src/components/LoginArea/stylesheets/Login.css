@@ -1,0 +1,67 @@
+.loginContainer {
+  display: block;
+  width: 320px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 10px;
+  margin: auto !important;
+}
+
+.loginContainer h1 {
+  display: block;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.loginContainer div {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.loginContainer div input {
+  float: right;
+  margin-top: -3px;
+}
+
+.loginContainer div .passwordShower {
+  padding: 2px;
+  margin-top: 3px;
+  margin-left: 106px;
+  background-color: #ff0000;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.loginContainer div .passwordShower:hover {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.loginContainer button {
+  margin-left: 235px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  background-color: #ff9900;
+  color: #000000;
+  font-weight: 600;
+  padding: 5px 20px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.loginContainer button:hover {
+  color: #ffffff;
+  background-color: #000000;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+#psswShAct1 {
+  background-color: #000000;
+  color: #ffffff;
+}
+/*# sourceMappingURL=Login.css.map */

@@ -1,0 +1,22 @@
+.sProdContainer {
+  display: block;
+  width: 250px;
+  height: 320px;
+  background-color: #ff9900;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.sProdContainer img {
+  width: 200px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.sProdContainer h2 {
+  width: 200px;
+  font-size: 18px;
+}
+/*# sourceMappingURL=SearchedProd.css.map */

@@ -1,0 +1,9 @@
+@mixin openHiddenMenuEffect {
+    filter: brightness(50%);
+    transition-duration: 0.5s;
+}
+
+@mixin closedHiddenMenuEffect {
+    filter: birghtness(100%);
+    transition-duration: 0.5s;
+}

@@ -1,0 +1,108 @@
+.errorContainer {
+  display: block;
+  width: 100%;
+  padding-top: 100px;
+  background-color: #ffffff;
+  z-index: 1;
+  padding-bottom: 150px;
+  -webkit-filter: birghtness(100%);
+          filter: birghtness(100%);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.errorContainer h3 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#openError {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.errorBody {
+  display: block;
+  width: 100%;
+}
+
+.errorBody h1 {
+  font-size: 40px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.errorBody div {
+  vertical-align: top;
+}
+
+.errorBody .errorLeft {
+  display: inline-block;
+  width: 40%;
+}
+
+.errorBody .errorLeft img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.errorBody .errorRight {
+  display: inline-block;
+  margin-top: 50px;
+  width: 60%;
+}
+
+.errorBody .errorRight h1 {
+  font-size: 30px;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.errorBody .errorRight h3 {
+  font-style: italic;
+}
+
+.errorBody .errorRight h3 a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .errorBody .errorRight {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .errorBody h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .errorBody .errorLeft {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .errorBody .errorLeft img {
+    width: 80%;
+  }
+  .errorBody .errorRight {
+    display: block;
+    width: 90%;
+    margin: 50px auto 0;
+  }
+  .errorBody .errorRight h1 {
+    font-size: 40px;
+  }
+  .errorBody .errorRight h3 {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=Error.css.map */

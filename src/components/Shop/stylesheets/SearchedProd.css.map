@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,eAAe,CAAC;EACZ,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,ECJX,OAAO;EDKZ,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,GAAG,CAAC,KAAK,CCRZ,OAAO;EDSZ,aAAa,EAAE,GAAG;EAClB,aAAa,EAAE,IAAI;CAUtB;;AAlBD,AASI,eATW,CASX,GAAG,CAAC;EACA,KAAK,EAAE,KAAK;EACZ,aAAa,EAAE,GAAG;EAClB,aAAa,EAAE,IAAI;CACtB;;AAbL,AAcI,eAdW,CAcX,EAAE,CAAC;EACC,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "SearchedProd.scss",
+        "../../shared/stylesheets/var.scss"
+    ],
+    "names": [],
+    "file": "SearchedProd.css"
+}

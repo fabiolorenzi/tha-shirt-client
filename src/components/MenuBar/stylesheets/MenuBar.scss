@@ -1,0 +1,29 @@
+@import "../../shared/stylesheets/var.scss";
+
+.menuBarContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    position: fixed;
+    margin-top: 55.5px;
+    background-color: $color3;
+    z-index: 100;
+}
+
+@media only screen and (max-width: 860px) {
+    .menuBarContainer {
+        margin-top: 50.5px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .menuBarContainer {
+        margin-top: 48.5px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .menuBarContainer {
+        margin-top: 48px;
+    }
+}

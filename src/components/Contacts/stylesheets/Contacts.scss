@@ -1,0 +1,146 @@
+@import "../../shared/stylesheets/var.scss";
+@import "../../shared/stylesheets/openHiddenMenu.scss";
+
+.contactsContainer {
+    display: block;
+    width: 100%;
+    padding-top: 100px;
+    background-color: $color2;
+    z-index: 1;
+    padding-bottom: 100px;
+    @include closedHiddenMenuEffect;
+    h3 {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+
+#openContacts {
+    @include openHiddenMenuEffect;
+}
+
+.contactsBody {
+    display: block;
+    width: 100%;
+    h1 {
+        font-size: 40px;
+        letter-spacing: 0.2em;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    div {
+        vertical-align: top;
+    }
+    .contactsLeft {
+        display: inline-block;
+        width: 40%;
+        img {
+            display: block;
+            margin: auto;
+            width: 50%;
+        }
+    }
+    .contactsRight {
+        display: inline-block;
+        margin-top: 30px;
+        width: 60%;
+        h3 {
+            font-weight: 600;
+            font-size: 23px;
+        }
+        div {
+            display: block;
+            width: 50%;
+            margin: 30px auto 0;
+            div {
+                display: inline-block;
+                width: 25%;
+                text-align: center;
+                a {
+                    font-size: 60px;
+                    display: block;
+                    width: fit-content;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}
+
+#facebook {
+    color: #4267B2;
+}
+
+#instagram {
+    color: #E1306C;
+}
+
+#email {
+    color: #ff4800;
+    font-size: 74px;
+    margin-top: -9px;
+}
+
+#linkedin {
+    color: #2867B2;
+    font-size: 50px;
+    margin-top: 2px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .contactsBody {
+        .contactsRight {
+            margin-top: 0;
+            div {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .contactsBody {
+        h1 {
+            font-size: 30px;
+        }
+        .contactsLeft {
+            display: block;
+            width: 80%;
+            margin: auto;
+            img {
+                width: 60%;
+            }
+        }
+        .contactsRight {
+            display: block;
+            width: 90%;
+            margin: 50px auto 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .contactsBody {
+        .contactsRight {
+            width: 95%;
+            div {
+                div {
+                    a {
+                        font-size: 50px;
+                    }
+                }
+            }
+        }
+    }
+
+    #linkedin {
+        font-size: 40px;
+        margin-top: 2px;
+    }
+
+    #email {
+        font-size: 64px;
+        margin-top: -8px;
+    }
+}

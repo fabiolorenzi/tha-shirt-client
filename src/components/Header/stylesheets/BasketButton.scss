@@ -1,0 +1,66 @@
+@import "../../shared/stylesheets/var.scss";
+
+.basketButtonContainer {
+    display: block;
+    width: 25%;
+    padding: 10px;
+    a {
+        text-decoration: none;
+    }
+}
+
+.basket_button {
+    display: block;
+    background-color: $color2;
+    padding: 5px;
+    border-radius: 3px;
+    width: 150px;
+    h3 {
+        color: $color1;
+        font-size: 15px;
+        margin-right: 10px;
+        margin-top: 4px;
+        text-decoration: none;
+    }
+    img {
+        width: 25px;
+    }
+}
+
+
+@media only screen and (max-width: 860px) {
+    .basket_button {
+        width: 100px;
+        h3 {
+            font-size: 12px;
+        }
+        img {
+            width: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .basket_button {
+        width: 80px;
+        h3 {
+            font-size: 8px;
+        }
+        img {
+            width: 18px;
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .basket_button {
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .basket_button {
+        width: 40px;
+        padding: 5px;
+    }
+}

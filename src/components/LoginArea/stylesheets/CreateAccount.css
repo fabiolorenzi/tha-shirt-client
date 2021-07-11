@@ -1,0 +1,85 @@
+.createAccountContainer {
+  display: block;
+  width: 320px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 10px;
+  margin: auto !important;
+}
+
+.createAccountContainer h1 {
+  display: block;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.createAccountContainer div {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.createAccountContainer div input {
+  float: right;
+  margin-top: -3px;
+}
+
+.createAccountContainer div .passwordShower {
+  padding: 2px;
+  margin-top: 3px;
+  margin-left: 106px;
+  background-color: #ff0000;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.createAccountContainer div .passwordShower:hover {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  background-color: #000000;
+  color: #ffffff;
+  transition-duration: 0.3s;
+}
+
+.createAccountContainer button {
+  margin-left: 235px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  background-color: #ff9900;
+  color: #000000;
+  font-weight: 600;
+  padding: 5px 20px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.createAccountContainer button:hover {
+  color: #ffffff;
+  background-color: #000000;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+#genderLabel {
+  padding-bottom: 20px !important;
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.genderSelector div {
+  display: block;
+}
+
+.radInp {
+  float: left !important;
+  margin-top: 3px !important;
+  margin-right: 10px;
+}
+
+#psswShAct2 {
+  background-color: #000000;
+  color: #ffffff;
+}
+/*# sourceMappingURL=CreateAccount.css.map */

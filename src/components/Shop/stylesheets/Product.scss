@@ -1,0 +1,42 @@
+@import "../../shared/stylesheets/var.scss";
+@import "../../shared/stylesheets/openHiddenMenu.scss";
+
+.productContainer {
+    display: block;
+    text-align: center;
+    margin: 25px;
+    width: 250px;
+    height: 430px;
+    background-color: #dddddd;
+    border: 1px solid $color1;
+    border-radius: 5px;
+    padding: 10px;
+    img {
+        width: 200px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    h2 {
+        font-size: 25px;
+        font-weight: 400;
+        height: 60px;
+    }
+    p {
+        font-size: 18px;
+        height: 60px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .productContainer {
+        img {
+            width: 150px;
+        }
+        h2 {
+            font-size: 24px;
+        }
+    }
+}

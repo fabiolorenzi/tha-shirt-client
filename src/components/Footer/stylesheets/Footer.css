@@ -1,0 +1,59 @@
+.footerContainer {
+  display: block;
+  -webkit-filter: birghtness(100%);
+          filter: birghtness(100%);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  width: 100%;
+  background-color: #555555;
+  color: #ffffff;
+}
+
+.footerContainer div {
+  padding: 40px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.footerContainer div a {
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.footerContainer div a p {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.footerContainer div a :hover {
+  color: #ff0000;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.footerContainer div #footerRights {
+  font-size: 14px;
+}
+
+#openFooter {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+@media only screen and (max-width: 500px) {
+  .footerContainer div {
+    padding: 28px;
+  }
+  .footerContainer div p {
+    font-size: 13px;
+  }
+  .footerContainer div #footerRights {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

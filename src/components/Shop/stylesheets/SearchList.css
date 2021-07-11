@@ -1,0 +1,35 @@
+.searchListContainer {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.searchListContainer h1 {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.searchListContainer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.searchListContainer div a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.searchListContainer div div {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+/*# sourceMappingURL=SearchList.css.map */

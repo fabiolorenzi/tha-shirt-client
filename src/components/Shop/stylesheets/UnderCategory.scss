@@ -1,0 +1,27 @@
+@import "../../shared/stylesheets/var.scss";
+@import "../../shared/stylesheets/openHiddenMenu.scss";
+
+.undCatContainer {
+    display: block;
+    text-align: center;
+    margin: 25px;
+    img {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    h2 {
+        font-size: 25px;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .undCatContainer {
+        img {
+            width: 150px;
+        }
+        h2 {
+            font-size: 24px;
+        }
+    }
+}

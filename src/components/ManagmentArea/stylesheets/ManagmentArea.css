@@ -1,0 +1,61 @@
+.manAreaContainer {
+  display: block;
+  width: 100%;
+  padding-top: 100px;
+  background-color: #ffffff;
+  z-index: 1;
+  padding-bottom: 100px;
+  -webkit-filter: birghtness(100%);
+          filter: birghtness(100%);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.manAreaContainer h1 {
+  font-size: 40px;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+
+.manAreaContainer h2 {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+#openManArea {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.manAreaImg {
+  display: block;
+  width: 40%;
+  margin: 0 auto 50px;
+}
+
+.manAreaImg img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+@media only screen and (max-width: 650px) {
+  .manAreaBody h1 {
+    font-size: 30px;
+  }
+  .manAreaBody h2 {
+    font-size: 18px;
+  }
+  .manAreaImg {
+    width: 80%;
+  }
+  .manAreaImg img {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=ManagmentArea.css.map */
