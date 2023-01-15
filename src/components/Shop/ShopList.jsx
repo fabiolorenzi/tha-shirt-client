@@ -17,7 +17,7 @@ function ShopList() {
     };
 
     useEffect(() => {
-        axios.get("https://tha-shirt-server.herokuapp.com/api/products/")
+        axios.get("http://thashirtbackend.hopto.org/api/products/")
             .then(res => {
                 for (let i = 0; i < res.data.length; i++) {
                     if (!types.includes(res.data[i].type)) {

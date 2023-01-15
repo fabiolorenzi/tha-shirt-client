@@ -46,7 +46,7 @@ function CreateAccount() {
             pass: false
         };
 
-        axios.post("https://tha-shirt-server.herokuapp.com/api/users/", newUser)
+        axios.post("http://thashirtbackend.hopto.org/api/users/", newUser)
             .then(res => {
                 alert(`New user created successfully! Now you can login with the credentials you gave.`);
                 setUser({

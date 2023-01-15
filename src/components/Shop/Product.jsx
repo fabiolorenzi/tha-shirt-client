@@ -19,7 +19,7 @@ function Product({typeKey, catKey, undCatKey, id}) {
     const [price, setPrice] = useState("");
 
     useEffect(() => {
-        axios.get("https://tha-shirt-server.herokuapp.com/api/products/" + id)
+        axios.get("http://thashirtbackend.hopto.org/api/products/" + id)
             .then(res => setProduct({
                 name: res.data.name,
                 type: res.data.type,
