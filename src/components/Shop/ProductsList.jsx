@@ -32,7 +32,7 @@ function ProductsList(props) {
     };
 
     useEffect(() => {      
-        axios.get("http://thashirtbackend.hopto.org/api/products/")
+        axios.get("https://thashirtbackend.hopto.org/api/products/")
             .then((res) => {
                 for (let i = 0; i < res.data.length; i++) {
                     if (res.data[i].type.toLowerCase() === props.match.params.type

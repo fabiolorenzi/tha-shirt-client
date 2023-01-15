@@ -21,7 +21,7 @@ function Login() {
     };
 
     useEffect(() => {
-        axios.get("http://thashirtbackend.hopto.org/api/users/")
+        axios.get("https://thashirtbackend.hopto.org/api/users/")
             .then(res => setUsers(res.data))
             .catch(err => alert("Not possible to login now. Please retry later."));
     }, []);

@@ -47,7 +47,7 @@ function CreateProduct() {
             image: prod.image
         });
 
-        axios.post("http://thashirtbackend.hopto.org/api/products/", newProd)
+        axios.post("https://thashirtbackend.hopto.org/api/products/", newProd)
             .then(res => {
                 alert("The new product has been created successfully!");
                 setProd({

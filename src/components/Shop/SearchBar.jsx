@@ -12,7 +12,7 @@ function SearchBar() {
     const [prods, setProds] = useState([]);
 
     useEffect(() => {
-        axios.get("http://thashirtbackend.hopto.org/api/products/")
+        axios.get("https://thashirtbackend.hopto.org/api/products/")
             .then(res => setProds(res.data))
             .catch(err => alert("Not possible to search now. Please retry later."));
     }, []);
